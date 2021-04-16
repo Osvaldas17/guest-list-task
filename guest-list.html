@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="guest-list.css">
+    <script src="guest-list.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+<div id="buttons">
+    <div>
+        <input id="enter-guest" placeholder="Please enter guest name" type="text">
+        <button id="add-top">Add guest to top</button>
+        <button id="add-bottom">Add guest to bottom</button>
+    </div>
+    <div id="drop-down">
+        <button id="drop-btn">
+            <span>More options</span>
+            <i class="fas fa-caret-square-down"></i>
+        </button>
+        <div id="drop-down-content">
+            <button id="remove-first">Remove first</button>
+            <button id="remove-last">Remove last</button>
+            <button id="reverse">reverse list</button>
+            <button id="move-first-to-last">Move first to last</button>
+            <button id="move-last-to-first">Move last to first</button>
+        </div>
+    </div>
+</div>
+<div id="warning">
+</div>
+<div>
+    <div>
+    <input id="add-at-input" placeholder="Add at" type="number">
+    <button id="add-at">Add after(number)</button>
+    <input id="remove-from" placeholder="From" type="number">
+    <input id="remove-to" placeholder="To" type="number">
+    <button id="remove-from-to-btn">Remove From/To</button>
+    </div>
+</div>
+<div id="app">
+</div>
+</body>
+</html>
